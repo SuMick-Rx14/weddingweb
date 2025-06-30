@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>MickNice-Wedding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- รวม Google Fonts เป็นบรรทัดเดียว -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@100..900&family=Oooh+Baby&family=Pacifico&family=Prompt:wght@100..900&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="static/css/animate.css" />
+    <link rel="stylesheet" href="static/css/icomoon.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.css" />
+    <link rel="stylesheet" href="static/css/casuoal.css" />
+    <link rel="stylesheet" href="static/css/theme.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <!-- Modernizr -->
+    <script src="static/js/modernized.js"></script>
+
+    <!-- Responsive Font Style -->
+    <style>
+      h1.name-title {
+        font-family: "Oooh Baby";
+        font-size: 150px;
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+        h1.name-title {
+          font-size: 80px;
+          line-height: 1.2;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="fh5co-loader"></div>
+
+    <div id="page">
+      <nav class="fh5co-nav" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <!-- โลโก้หรือชื่อเว็บไซต์ -->
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Part Header -->
+      <section
+        id="home-cover"
+        style="
+          background-color: rgb(123, 160, 139);
+          background-size: cover;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        "
+      >
+        <div
+          class="overlay"
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0);
+          "
+        ></div>
+
+        <div
+          class="container"
+          style="
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 60px;
+            text-align: center;
+            color: white;
+          "
+        >
+          <div class="row">
+            <div class="col-md">
+              <h1 class="name-title">
+                <strong
+                  >Suwit&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;Warisa</strong
+                >
+              </h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md text-center">
+              <div class="display-t">
+                <div
+                  class="display-tc animate-box"
+                  data-animate-effect="fadeIn"
+                >
+                  <h1 style="font-family: Prompt; color: white">
+                    <br />
+                    <p style="font-size: 15px">30.11.2025</p>
+                    #nicetohavemick
+                  </h1>
+
+                  <!-- Countdown -->
+                  <div class="simply-countdown simply-countdown-one"></div>
+
+                  <!-- ปุ่ม -->
+                  <a
+                    href="#rsvp"
+                    class="btn btn-default btn-lg"
+                    style="
+                      color: rgb(75, 116, 92);
+                      font-family: 'Kanit', sans-serif;
+                    "
+                  >
+                    ตอบรับคำเชิญ
+                  </a>
+                  <a
+                    href="#details"
+                    class="btn btn-default btn-lg"
+                    style="color: rgb(75, 116, 92)"
+                  >
+                    รายละเอียดงาน
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Header -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/jquery.easing.1.3.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.waypoints.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/jquery.countTo.js"></script>
+    <script src="static/js/jquery.stellar.min.js"></script>
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/magnific-popup-options.js"></script>
+
+    <!-- Countdown -->
+    <script src="static/js/simplyCountdown.js"></script>
+
+    <!-- Main JS -->
+    <script src="static/js/main.js"></script>
+
+    <!-- Countdown Config -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        simplyCountdown(".simply-countdown-one", {
+          year: 2025,
+          month: 11,
+          day: 30,
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+        });
+      });
+    </script>
+  </body>
+</html>

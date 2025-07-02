@@ -332,7 +332,10 @@ figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;

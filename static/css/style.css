@@ -24,7 +24,7 @@
 @font-face {
   font-family: 'Breathing';
   src: url('../fonts/Breathing.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -1926,4 +1926,5 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
 

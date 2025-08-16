@@ -21,6 +21,12 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Breathing';
+  src: url('../fonts/Breathing.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 html {
   scroll-behavior: smooth;
@@ -1920,3 +1926,4 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+

@@ -2630,7 +2630,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  background-color: rgb(123, 160, 139);
+  background-color: #7ba08b;
   border-color: #ccc;
 }
 .btn-default:focus, .btn-default.focus {
@@ -6255,3 +6255,4 @@ button.close {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+

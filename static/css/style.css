@@ -39,7 +39,7 @@ html {
   *
   * ======================================================= */
 body {
-  font-family: "Prompt", Arial, sans-serif;
+  font-family: "Kanit", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -91,7 +91,7 @@ a:focus {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 h1,
@@ -102,9 +102,9 @@ h5,
 h6,
 figure {
   color: #000;
-  font-family: "Prompt", Arial, sans-serif;
+  font-family: 'Kanit', Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 20 0 10px 0;
 }
 
 ::-webkit-selection {
@@ -742,7 +742,7 @@ figure {
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#fh5co-gallery-list li .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -751,24 +751,24 @@ figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #fh5co-gallery-list li .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#fh5co-gallery-list li .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#fh5co-gallery-list li .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #fh5co-gallery-list li .case-studies-summary h2 {
     font-size: 20px;
   }
 }
@@ -982,7 +982,7 @@ form label {
 
 .simply-countdown {
   /* The countdown */
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 .simply-countdown > .simply-section {
@@ -990,7 +990,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgb(110, 116, 112);
+  background: rgb(123, 160, 139);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1047,7 +1047,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1225,7 +1225,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1235,8 +1235,8 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #099b6f;
-  font-family: "Pacifico", Arial, serif;
+  color: rgb(123, 160, 139);
+  font-family: "Kanit", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {

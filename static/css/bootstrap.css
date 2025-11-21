@@ -2630,12 +2630,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: rgb(123, 160, 139);
   border-color: #ccc;
 }
 .btn-default:focus, .btn-default.focus {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: rgb(123, 160, 139);
   border-color: #8c8c8c;
 }
 .btn-default:hover {

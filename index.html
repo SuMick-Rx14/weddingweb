@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8" />
-    <title>MickNice-Wedding</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS Libraries -->
-    <link rel="stylesheet" href="static/css/animate.css" />
-    <link rel="stylesheet" href="static/css/icomoon.css" />
-    <link rel="stylesheet" href="static/css/bootstrap.css" />
-    <link rel="stylesheet" href="static/css/casuoal.css" />
-    <link rel="stylesheet" href="static/css/theme.css" />
-    <link rel="stylesheet" href="static/css/style.css" />
+<head>
+  <meta charset="utf-8" />
+  <title>MickNice-Wedding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Modernizr -->
-    <script src="static/js/modernized.js"></script>
+  <!-- CSS Libraries -->
+  <link rel="stylesheet" href="static/css/animate.css" />
+  <link rel="stylesheet" href="static/css/icomoon.css" />
+  <link rel="stylesheet" href="static/css/bootstrap.css" />
+  <link rel="stylesheet" href="static/css/casuoal.css" />
+  <link rel="stylesheet" href="static/css/theme.css" />
+  <link rel="stylesheet" href="static/css/style.css" />
 
-    <!-- Responsive Font Style -->
-    <style>
-      h1.name-title {
-        font-family: 'Oooh Baby';
-        font-size: 150px;
-        color: white;
+  <!-- Modernizr -->
+  <script src="static/js/modernized.js"></script>
+
+  <!-- Responsive Font Style -->
+  <style>
+    h3.name-title {
+      font-family: 'Oooh Baby';
+      font-size: 80px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    @media (max-width: 768px) {
+      h3.name-title {
+        font-size: 80px;
+        line-height: 1.2;
       }
+    }
+  </style>
+</head>
 
-      @media (max-width: 768px) {
-        h1.name-title {
-          font-size: 80px;
-          line-height: 1.2;
-        }
-      }
-    </style>
-  </head>
+<body>
+  <div class="fh5co-loader"></div>
 
-  <body>
-    <div class="fh5co-loader"></div>
-
-    <div id="page">
-      <nav class="fh5co-nav" role="navigation">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <!-- โลโก้หรือชื่อเว็บไซต์ -->
-            </div>
+  <div id="page">
+    <nav class="fh5co-nav" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- โลโก้หรือชื่อเว็บไซต์ -->
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- Part Header -->
-      <section
-        id="home-cover"
-        style="
+    <!-- Part Header -->
+    <!-- <section id="home-cover" style="
           background-color: rgb(123, 160, 139);
           background-size: cover;
           width: 100vw;
@@ -59,128 +58,319 @@
           align-items: center;
           justify-content: center;
           position: relative;
-        "
-      >
-        <div
-          class="overlay"
-          style="
+        "> -->
+    <section id="home-cover" style="
+    /* *** เปลี่ยนตรงนี้: ใส่ background-image แทน background-color *** */
+    background-image: url('static/media/coverimage.jpg'); 
+    
+    /* *** (ทางเลือก) กำหนดสีสำรอง ในกรณีที่โหลดรูปภาพไม่ได้ *** */
+    background-color: rgb(123, 160, 139);
+    
+    /* ตั้งค่าให้รูปภาพคลุมพื้นที่ทั้งหมด (คุณมีอยู่แล้ว) */
+    background-size: cover;
+    
+    /* *** (แนะนำ) ป้องกันรูปภาพซ้ำ *** */
+    background-repeat: no-repeat;
+    
+    /* *** (แนะนำ) จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง *** */
+    background-position: center center;
+    
+    /* ส่วนอื่น ๆ ที่คุณมีอยู่แล้ว */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+">
+      <div class="overlay" style="
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             background: rgba(255, 255, 255, 0);
-          "
-        ></div>
+          "></div>
 
-        <div
-          class="container"
-          style="
+
+      <div class="container" style="
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: end;
             align-items: center;
-            padding-bottom: 60px;
+            padding-bottom: 20px;
             text-align: center;
-            color: white;
-          "
-        >
-          <div class="row">
-            <div class="col-md">
-              <h1 class="name-title">
-                <strong
-                  >Warisa&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;Suwit</strong
-                >
-              </h1>
+            color: rgb(73, 72, 72);
+          ">
+        <!-- <div class="row">
+          <div class="col-md" >
+            <h1 class="name-title">
+              <strong>Warisa&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;Suwit</strong>
+            </h1>
+          </div>
+        </div> -->
+
+
+        <div class="row">
+
+
+          <div class="col-md text-center" style="align-items: flex-end;">
+            <div class="display-t">
+              <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                <h1 style="font-family: Kanit; color: white">
+                  <br />
+                  <h3 class="name-title"><strong>Warisa&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;Suwit</strong></h3>
+                  
+                </h1>
+                
+                <!-- Countdown -->
+                <div class="simply-countdown simply-countdown-one"></div>
+                <p style="font-size: 15px; margin: 5;"><strong>30 Noveber 2025</strong></p>
+
+                <!-- ปุ่ม -->
+                <a href="https://forms.cloud.microsoft/r/gEJ6svQpCp" class="btn btn-default btn-lg" style="
+                      color: #fff;
+                      font-family: 'Kanit', sans-serif;
+                    ">
+                  ตอบรับคำเชิญ
+                </a>
+                <a href="https://wedding.whiskeypro-partner.com/Pozw0pl82u" class="btn btn-default btn-lg" style="color: #fff;
+                    font-family: 'Kanit', sans-serif;">
+                  เขียนคำอวยพร
+                </a>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+<!-- ----------------------------------- -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+            <span><br>#nicetohavemick</span>
+            <!-- <h2>ลำดับพิธีการ</h2> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="display-t">
+            <div class="display-tc">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-6 col-sm-6 text-center">
+                  <div class="event-wrap animate-box">
+                    <h3>พิธีหมั้น</h3>
+                    <div class="event-col">
+                      <i class="icon-clock"></i>
+                      <span>เวลา 8:00 - 11:30</span>
+                      <span>น.</span>
+                    </div>
+                    <div class="event-col">
+                      <i class="icon-location"></i>
+                      <span>ชั้น 3 ห้อง Crystal 3-4</span> <br>
+                      <span>โรงแรม Century Park Hotel Bangkok</span>
+                    </div>
 
-          <div class="row">
-            <div class="col-md text-center">
-              <div class="display-t">
-                <div
-                  class="display-tc animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <h1 style="font-family: Kanit; color: white">
-                    <br />
-                    <p style="font-size: 15px">30.11.2025</p>
-                    #nicetohavemick
-                  </h1>
-
-                  <!-- Countdown -->
-                  <div class="simply-countdown simply-countdown-one"></div>
-
-                  <!-- ปุ่ม -->
-                  <a
-                    href="https://forms.cloud.microsoft/r/gEJ6svQpCp"
-                    class="btn btn-default btn-lg"
-                    style="
-                      color: rgb(75, 116, 92);
-                      font-family: 'Kanit', sans-serif;
-                    "
-                  >
-                    ตอบรับคำเชิญ
-                  </a>
-                  <a
-                    href="https://wedding.whiskeypro-partner.com/Pozw0pl82u"
-                    class="btn btn-default btn-lg"
-                    style="color: rgb(75, 116, 92);
-                    font-family: 'Kanit', sans-serif;"
-                  >
-                    เขียนคำอวยพร
-                  </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                  <div class="event-wrap animate-box">
+                    <h3>พิธีฉลองมงคลสมรส</h3>
+                    <div class="event-col">
+                      <i class="icon-clock"></i>
+                      <span>เวลา 12:00 เป็นต้นไป</span>
+                      <!-- <span>น.</span> -->
+                    </div>
+                    <div class="event-col">
+                      <i class="icon-location"></i>
+                      <span>ชั้น 3 ห้อง Grand Ballroom</span> <br>
+                      <span>โรงแรม Century Park Hotel Bangkok</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Header -->
-    </div>
+      </div>
+    </section>
+<!-- ----------------------------------- -->
+    <section>
+      <div id="fh5co-couple-story">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+              <!-- <span>We Love Each Other</span> -->
+              <h2>ลำดับพิธีการ</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-md-offset-0">
+              <ul class="timeline animate-box">
+                <li class="animate-box">
+                  <div class="timeline-badge" style="background-image:url(static/media/agenda1.jpg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading" >
+                      <h3 class="timeline-title">พิธีแห่ขันหมาก</h3>
+             
+                        <span class="date">เวลา 08.09 น.</span>
+                 
+                    </div>
+                    <div class="timeline-body" >
+                      <p>ตั้งขบวนขันหมากสู่ขอที่ชั้น 3 บริเวณหน้าห้อง Grand ballroom </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div class="timeline-badge" style="background-image:url(static/media/agenda2.jpg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">พิธีหมั้นและรับไหว้</h3>
+                      <span class="date">เวลา 09.09 น.</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>ดำเนินพิธีที่ชั้น 3 ห้อง Crystal 3-4</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="animate-box">
+                  <div class="timeline-badge" style="background-image:url(static/media/agenda3.jpg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">พิธีหลั่งน้ำพระพุทธมนต์และจดทะเบียนสมรส</h3>
+                      <span class="date">เวลา 10.09 น.</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>ดำเนินพิธีที่ชั้น 3 ห้อง Crystal 3-4</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div class="timeline-badge" style="background-image:url(static/media/agenda6.jpg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">พิธีฉลองมงคลสมรส</h3>
+                      <span class="date">เวลา 12.00 น.</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>ร่วมถ่ายรูปและรับประทานอาหารที่ชั้น 3 ห้อง Grand Ballroom กิจกรรมอื่นๆ เช่น Photobooth และ Live painting</p>
+                    </div>
+                  </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ----------------------------------- -->
+    <section>
+      <div id="fh5co-gallery" class="fh5co-section-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+              <span>#nicetohavemick</span>
+              <h2>Wedding Gallery</h2>
+            </div>
+          </div>
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-12">
+              <ul id="fh5co-gallery-list">
+                <li class="one-third animate-box" data-animate-effect="fadeIn"
+                  style="background-image: url('static/media/img1.jpg');">
+                    <div class="case-studies-summary">
+                      <!-- <span>56 Photos</span>
+                      <h2>Beautiful sunset</h2> -->
+                    </div>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn"
+                  style="background-image: url('static/media/img7.jpg');">
+                    <div class="case-studies-summary">
+                      <!-- <span>56 Photos</span>
+                      <h2>Beautiful sunset</h2> -->
+                    </div>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn"
+                  style="background-image: url('static/media/img4.jpg');">
+                    <div class="case-studies-summary">
+                      <!-- <span>56 Photos</span>
+                      <h2>Beautiful sunset</h2> -->
+                    </div>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn"
+                  style="background-image: url('static/media/img2.jpg');">
+                    <div class="case-studies-summary">
+                      <!-- <span>56 Photos</span>
+                      <h2>Beautiful sunset</h2> -->
+                    </div>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn"
+                  style="background-image: url('static/media/img6.jpg');">
+                    <div class="case-studies-summary">
+                      <!-- <span>56 Photos</span>
+                      <h2>Beautiful sunset</h2> -->
+                    </div>
+                </li>
+                <li class="one-third animate-box" data-animate-effect="fadeIn"
+                  style="background-image: url('static/media/img5.jpg');">
+                    <div class="case-studies-summary">
+                      <!-- <span>56 Photos</span>
+                      <h2>Beautiful sunset</h2> -->
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+  </div>
+  <footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
 
-    <!-- Scripts -->
-    <script src="static/js/jquery.min.js"></script>
-    <script src="static/js/jquery.easing.1.3.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script src="static/js/jquery.waypoints.min.js"></script>
-    <script src="static/js/owl.carousel.min.js"></script>
-    <script src="static/js/jquery.countTo.js"></script>
-    <script src="static/js/jquery.stellar.min.js"></script>
-    <script src="static/js/jquery.magnific-popup.min.js"></script>
-    <script src="static/js/magnific-popup-options.js"></script>
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<h3><strong>"Thank you for being a part of our memories."</strong>
+					</h3>
+				</div>
+			</div>
 
-    <!-- Countdown -->
-<!--     <script src="static/js/simplyCountdown.js"></script> -->
-    <script src="static/js/simplyCountdown.fixed.js"></script>
+		</div>
+	</footer>
 
-    <!-- Main JS -->
-    <script src="static/js/main.js"></script>
+  <!-- Scripts -->
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/jquery.easing.1.3.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/jquery.waypoints.min.js"></script>
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script src="static/js/jquery.countTo.js"></script>
+  <script src="static/js/jquery.stellar.min.js"></script>
+  <script src="static/js/jquery.magnific-popup.min.js"></script>
+  <script src="static/js/magnific-popup-options.js"></script>
 
-    <!-- Countdown Config -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        simplyCountdown(".simply-countdown-one", {
-          year: 2025,
-          month: 11,
-          day: 30,
-          hours: 0,
-          minutes: 0,
-          seconds: 0,
-          enableUtc: true,
-        });
+  <!-- Countdown -->
+  <!--     <script src="static/js/simplyCountdown.js"></script> -->
+  <script src="static/js/simplyCountdown.fixed.js"></script>
+
+  <!-- Main JS -->
+  <script src="static/js/main.js"></script>
+
+  <!-- Countdown Config -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      simplyCountdown(".simply-countdown-one", {
+        year: 2025,
+        month: 11,
+        day: 30,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+        enableUtc: true,
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
-
-
-
-
-
-
-
-
-
-

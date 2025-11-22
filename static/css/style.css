@@ -1927,4 +1927,40 @@ form label {
 
 /*# sourceMappingURL=style.css.map */
 
+.color-palette {
+    display: flex; /* Aligns the circles in a row */
+    gap: 5px; /* Adds space between the circles */
+    align-items: center;
+}
+
+.circle {
+    /* Common properties for all circles */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Makes the div a circle */
+    /* You can adjust the margin-right if you don't use a parent flex container with gap */
+    /* margin-right: 5px; */
+}
+
+/* Specific colors based on the image (approximations) */
+.color-1 {
+    background-color: #4b663b; /* Deep Olive Green */
+}
+
+.color-2 {
+    background-color: #838a7c; /* Muted Green/Gray */
+}
+
+.color-3 {
+    background-color: #a8b09d; /* Light Sage Green */
+}
+
+.color-4 {
+    background-color: #ebeee8; /* Very Pale Green/Gray */
+}
+
+.color-5 {
+    background-color: #dcdde0; /* Light Gray */
+}
+
 
